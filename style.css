@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  min-height: 75vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=80")
+      center/cover no-repeat;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #222;
+}
+
+.card {
+  border: none;
+  border-radius: 14px;
+}
+
+.card-body {
+  border-radius: 14px;
+}
+
+.restaurant-card:hover,
+.menu-card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s;
+}
+
+.menu-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #198754;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.order-status-badge {
+  font-size: 14px;
+}
+
+.admin-list-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+#registerMessage,
+#loginMessage,
+#orderMessage {
+  min-height: 24px;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
